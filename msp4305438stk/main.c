@@ -1,10 +1,2 @@
-#include <msp430.h> 
+#include <mp.h>
 
-/*
- * main.c
- */
-int main(void) {
-    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
-	
-	return 0;
-}
